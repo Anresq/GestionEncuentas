@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GestionEncuestasApplication<GestionEncuestas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "A.R.GestionEncuestas.GestionEncuestasApplication",
+            "projectName": "GestionEncuestas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
