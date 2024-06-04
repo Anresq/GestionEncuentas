@@ -22,14 +22,13 @@ import lombok.experimental.SuperBuilder;
 @Schema(description = "DTO for survey request")
 public class SurveyRequest {
 
-    @Schema(
-    description = "Title of the survey", example = "Survey of quality")                      
+    @Schema(description = "Title of the survey", example = "Survey of quality")                      
     @NotBlank(message = "The title of the survey is required")     
     @Size(max = 255, message = "The title of the survey must have a maximum of 100 characters")   
     private String survey_title;
 
-    @NotBlank(message = "The description of survey is required")
     @Schema(description = "Survey description" )
+    @NotBlank(message = "The description of survey is required")
     private String description;
 
     @Schema(description = "Status of the user")

@@ -16,6 +16,7 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @Schema(description = "DTO for survey response")
 public class SurveyResponse {
+    
 
     @Schema(description = "Questions of the survey")
     private List<QuestionResponse> questions;

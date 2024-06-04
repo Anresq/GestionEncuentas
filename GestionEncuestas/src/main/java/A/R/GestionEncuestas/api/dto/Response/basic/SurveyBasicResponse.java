@@ -13,7 +13,7 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @NoArgsConstructor
 @Schema(description = "DTO for survey basic response")
-public class SuerveyBasicResponse {
+public class SurveyBasicResponse {
 
     @Schema(description = "ID of the survey", example = "1")
     private Long id_Survey;
