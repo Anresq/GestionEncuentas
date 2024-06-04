@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Schema(description = "DTO for course request")
+@Schema(description = "DTO for user response")
 public class UserResponse {
     @Schema(description = "ID of the user", example = "1")
     private long id_User;
