@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import A.R.GestionEncuestas.domain.entities.Survey;
 
 @Repository
-public interface SurveryRepository extends JpaRepository<Survey,Long> {
+public interface SurveyRepository extends JpaRepository<Survey,Long> {
     
 }
