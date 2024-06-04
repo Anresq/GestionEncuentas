@@ -17,6 +17,7 @@ import A.R.GestionEncuestas.api.dto.Response.SurveyResponse;
 import A.R.GestionEncuestas.api.dto.Response.basic.SurveyBasicResponse;
 import A.R.GestionEncuestas.infraestructure.abstract_service.ISurveyService;
 import A.R.GestionEncuestas.infraestructure.helpers.EntityToEntity;
+import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
 
