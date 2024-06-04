@@ -22,6 +22,7 @@ import lombok.ToString;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class User {
     
     @Id
@@ -31,7 +32,6 @@ public class User {
 
     @Column(nullable = false, length = 100)
     private String name;
-
 
     @Email
     @Column(nullable = false, length = 100, unique = true)
@@ -47,4 +47,5 @@ public class User {
     @EqualsAndHashCode.Exclude
     @OneToMany(mappedBy = "creator", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<Survey> Survey;
+    
 }
